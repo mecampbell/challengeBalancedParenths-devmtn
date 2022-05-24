@@ -18,3 +18,8 @@ const balanced = (str) => {
     };
     return openPar === closedPar;
 };
+
+console.log(balanced(sample1));
+console.log(balanced(sample2));
+console.log(balanced(sample3));
+console.log(balanced(sample4));
